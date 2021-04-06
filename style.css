@@ -1,0 +1,19 @@
+#allaround{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+}
+
+img{
+    width: 200px;
+    height: auto;
+}
+
+body{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    flex-direction: column;
+    overflow-x: hidden;
+}
