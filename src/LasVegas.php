@@ -1,5 +1,6 @@
 <?php
 
+namespace Nico\ViewaLasVegas;
 
 class LasVegas
 {
@@ -10,17 +11,17 @@ class LasVegas
     private int $pools;
     private int $saunas;
     private int $cocktailbars;
-    private string $source;
+    private string $photo;
 
     //Constructor
 
-    public function __construct(string $name, int $pools, int $saunas, int $cocktailbars, string $source)
+    public function __construct(string $name, int $pools, int $saunas, int $cocktailbars, string $photo)
     {
         $this->name = $name;
         $this->pools = $pools;
         $this->saunas = $saunas;
         $this->cocktailbars = $cocktailbars;
-        $this->source = $source;
+        $this->photo = $photo;
     }
 
     //Getters
@@ -49,8 +50,8 @@ class LasVegas
     }
 
 
-    public function getSource(): string
+    public function getPhoto(): string
     {
-        return $this->source;
+        return $this->photo;
     }
 }

@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Viewa Las Vegas!</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./Templates/style.css">
 </head>
 <body>
 <header>
@@ -23,7 +23,7 @@
             <li>{{hotel.saunas|e}} Saunas</li>
             <li>{{hotel.cocktailbars|e}} Cocktail Bars</li>
         </ul>
-<!--        <img src="hotel.source|e">-->
+ <img src="{{hotel.photo|e}}">
     </div>
     {% endfor %}
 </div>

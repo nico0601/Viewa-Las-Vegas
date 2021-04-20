@@ -13,9 +13,9 @@ $twig = new \Twig\Environment($loader);
 
 // Liste der Kühlschräke aus PHP
 $hotels = array(
-    new \LasVegas("Bellagio", "3", "2", "5", "./pics/bellagio.webp"),
-    new \LasVegas("The Venetian", "4", "3", "6", "./pics/venetian.jpg"),
-    new \LasVegas("Caesars Palace", "10", "8", "11", "./pics/caesars.jpg")
+    new LasVegas("Bellagio", "3", "2", "5", "./pics/bellagio.webp"),
+    new LasVegas("The Venetian", "4", "3", "6", "./pics/venetian.jpg"),
+    new LasVegas("Caesars Palace", "10", "8", "11", "./pics/caesars.jpg")
 );
 
 
