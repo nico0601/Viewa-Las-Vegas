@@ -1,0 +1,20 @@
+{
+    "name": "nico/viewalasvegas",
+    "description": "Find out more about Las vegas Hotels!",
+    "type": "project",
+    "authors": [
+        {
+            "name": "N. Naumann",
+            "email": "nico.naumann@htl.rennweg.at"
+        }
+    ],
+
+    "require": {
+        "twig/twig": "^3.3"
+    },
+    "autoload": {
+        "psr-4" : {
+            "Nico\\ViewaLasVegas\\" : "src/"
+        }
+    }
+}
