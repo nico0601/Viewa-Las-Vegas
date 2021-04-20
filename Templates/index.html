@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Viewa Las Vegas!</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+    <h1>
+        Viewa Las Vegas!
+    </h1>
+</header>
+
+<div id="allaround">
+    {% for hotel in hotels %}
+    <div id="" class="hotel">
+        <h2>
+            {{hotel.name|e}}
+        </h2>
+        <ul>
+            <li>{{hotel.pools|e}} Pools</li>
+            <li>{{hotel.saunas|e}} Saunas</li>
+            <li>{{hotel.cocktailbars|e}} Cocktail Bars</li>
+        </ul>
+<!--        <img src="hotel.source|e">-->
+    </div>
+    {% endfor %}
+</div>
+</body>
+</html>

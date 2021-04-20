@@ -1,7 +1,7 @@
 <?php
 
 
-class lasvegas
+class LasVegas
 {
 
     //define variables
